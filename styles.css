@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #243E63;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.a__underline:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    transition: opacity 300ms ease;
+    opacity: 1;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 12px;
+    color: #A0A3C0;
+}
+
+/* NAV */
+
+#nav__bar {
+    padding: 32px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__img-logo--wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav__img-logo {
+    width: 100%;
+    max-width: 40px;
+    margin: 0 12px 0 0;
+}
+
+.nav__heading {
+    font-weight: 900;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+.nav__heading:hover {
+    color: #6415ff;
+}
+
+.nav__links__right {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__links__right__four {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links__right__two {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: #6415ff;
+    color: #F7FAFC;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 9999px;
+    border: none;
+}
+
+
+/* Landing page */
+
+.color__purple {
+    color: #6415ff;
+}
+
+.landing__page__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing__page__left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing__page__right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+}
+.input__button {
+    background-color: #6415ff;
+    color: #F7FAFC;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 8px 8px 0;
+    padding: 16px 0;
+    border-radius: 9999px;
+    border: none;
+}
+
+.customers__img {
+    margin: 16px 0 0;
+    padding: 0 128px 0 0;
+    opacity: 0.5;
+}
