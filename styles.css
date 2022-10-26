@@ -453,7 +453,7 @@ h3 {}
     align-items: center;
 }
 
-.fa-solid {
+.value__fa-solid {
     border: 0px solid #243E63;
     font-size: 20px;
     border-radius: 9999px;
@@ -493,3 +493,280 @@ h3 {}
 }
 
 /* Pricing */
+
+.pricing__row {
+    padding: 96px 0;
+}
+
+.pricing__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 0;
+}
+
+.pricing__heading {
+    font-size: 16px;
+    margin: 0 0 16px;
+}
+
+.pricing__para {
+    color: #7C8BA1;
+    font-size: 18px;
+    width: 576px;
+    line-height: 1.625;
+    margin: 16px 0 0;
+}
+
+.prices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price__wrapper {
+    width: calc(100%/3.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 64px 32px 0 0;
+}
+
+.price {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(226, 232, 240);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.price__purple {
+    padding: 9.31px 0 0;
+}
+
+.price__header__color1,
+.price__header__color3 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 1vh;
+}
+
+.price__header__color1 {
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.price__header__color2 {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.price__header__color3 {
+    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.price__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+}
+
+.price__middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 32px;
+}
+
+.price__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 64px;
+}
+
+.purple__bkg {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.price__top,
+.price__middle {
+    border-bottom: 1px solid rgb(226, 232, 240);
+}
+
+.purple__border {
+    padding: (32+9.31) 32 0 0;
+    border-bottom: 1px solid rgb(102, 126, 234);
+    color: #F7FAFC;
+}
+
+.price__title {
+    font-size: 20px;
+}
+
+.price__price {
+    font-size: 48px;
+    margin: 4px 0;
+}
+
+.price__peridocials {
+    font-size: 16px;
+}
+
+.price__individuals {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.middle-span {
+    font-size: 16px;
+    margin: 20px 0 0;
+}
+
+.buy__now__button {
+    width: 100%;
+    max-width: 192px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 32px;
+    border-radius: 9999px;
+    border: none;
+}
+
+.price__bt1 {
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: #F7FAFC;
+}
+
+.price__bt2 {
+    background-image: rgb(247 250 252);
+    color: #6415ff;
+}
+
+.price__bt3 {
+    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    color: #F7FAFC;
+}
+
+/* Testimonials */
+
+.testimonials__row {
+    display: flex;
+}
+
+.testimonials__left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.testimonials__img {
+    width: 100%;
+    width: 600px;
+}
+
+.testimonials__right {
+    width: 50%;
+    padding: 0 0 0 64px;
+}
+
+.testimonials__heading {
+    font-size: 16px;
+}
+
+.testimonials__heading2 {
+    color: #243E63;
+    font-size: 48px;
+    margin: 16px 0 0;
+}
+
+.testimonials__para {
+    color: #7c8ba1;
+    font-size: 18px;
+    line-height: 1.625;
+    margin: 24px 0 0;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating {
+    color: rgb(246, 173, 85);
+    margin: 32px 0 0;
+}
+
+.short__statment {
+    color: #243e63;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.625;
+    margin: 16px 0 0;
+}
+
+.testimony__para {
+    color: #4a5568;
+    font-size: 16px;
+    line-height: 1.625;
+    margin: 16px 0 40px;
+}
+
+.testimony__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimony__person {
+    display: flex;
+    align-items: center;
+}
+
+.testimony__person__img {
+    width: 100%;
+    max-width: 80px;
+    border-radius: 9999px;
+}
+
+.testimony__person__contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+}
+
+.testimony__name {
+    color: #243e63;
+    font-size: 20px;
+}
+
+.testimony__compnay {
+    color: #7c8ba1;
+    font-size: 16px;
+}
+
+.side__buttons {
+    display: flex;
+    margin: auto 0;
+}
+
+.side__button {
+    color: rgb(100, 21, 255);
+    background-color: #edf2f7;
+    width: 100%;
+    height: 100%;
+    max-width: 48px;
+    max-height: 48px;
+    border-right: 1px solid white;
+    border-radius: 9999px;
+    padding: 16px;
+    margin: 0 12px;
+}
+
+.side__button__divider {
+    max-height: 30px;
+    border-right: 1px solid rgb(226, 232, 240);
+    margin: 12px 0;
+}
