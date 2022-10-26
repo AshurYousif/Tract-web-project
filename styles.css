@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.whole__page {
+    padding: 32px;
+}
+
 a {
     text-decoration: none;
     color: #243E63;
@@ -33,6 +37,7 @@ button:hover {
 }
 
 h1 {
+    color: #243E63;
     font-size: 48px;
 }
 
@@ -41,10 +46,12 @@ h2 {
     color: #A0A3C0;
 }
 
+h3 {}
+
 /* NAV */
 
 #nav__bar {
-    padding: 32px;
+    padding-bottom: 48px;
 }
 
 .row {
@@ -118,7 +125,7 @@ h2 {
 /* Landing page */
 
 #landing__page {
-    margin: 56px;
+    margin: 56px 0;
 }
 
 .color__purple {
@@ -162,13 +169,16 @@ h2 {
     width: 100%;
     border-radius: 9999px;
     border-width: 2px;
+    border-color: rgb(226, 232, 240);
     font-weight: 500;
     padding: 20px 192px 20px 32px;
     z-index: 0;
 }
 
 .landing__page__left__para {
+    color: #243E63;
     font-size: 18px;
+    line-height: 1.625;
     margin: 32px 0;
 }
 
@@ -201,6 +211,10 @@ h2 {
     padding: 80px 0;
 }
 
+.features__row {
+    padding: 32px;
+}
+
 .features__top {
     text-align: center;
     display: flex;
@@ -214,6 +228,7 @@ h2 {
 }
 
 .features__heading2 {
+    color: #243E63;
     font-size: 48px;
 }
 
@@ -222,6 +237,7 @@ h2 {
     max-width: 576px;
     color: #7C8BA1;
     font-size: 18px;
+    line-height: 1.625;
     margin: 16px 0 0;
 }
 
@@ -269,8 +285,211 @@ h2 {
     color: #7C8BA1;
     width: 100%;
     max-width: 212px;
+    line-height: 2;
     margin: 16px 0 0;
 }
 
 /* Quality work */
 
+
+.qualitywork__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 96px 0;
+}
+
+.qualitywork__page__left {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+}
+
+.qualitywork__heading {
+    font-size: 16px;
+}
+
+.qualitywork__heading2 {
+    color: #243E63;
+    margin: 16px 0 0;
+}
+
+.qualitywork__para {
+    color: #7C8BA1;
+    font-size: 18px;
+    line-height: 1.625;
+    margin: 16px 0 0;
+}
+
+.learn-more__button {
+    width: 100%;
+    max-width: 142px;
+    background-color: #6415ff;
+    color: #F7FAFC;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 32px 0 0;
+    padding: 12px 32px;
+    border-radius: 9999px;
+    border: none;
+}
+
+.qualitywork__page__right {
+    display: flex;
+}
+
+.qualitywork__img--wrapper {
+    width: 100%;
+}
+
+.quality__work__img {
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 5px;
+    max-width: 640px;
+}
+
+/* Steps */
+
+.steps__row {
+    display: flex;
+    margin: 0 auto;
+    padding: 96px 0;
+}
+
+.steps__page__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px 0 0;
+}
+
+.steps__img {
+    max-width: 100%;
+}
+
+.steps__page__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__heading {
+    font-size: 16px;
+}
+
+.steps__heading2 {
+    font-size: 48px;
+    margin: 16px 0 0;
+}
+
+.step__num {
+    font-size: 32px;
+}
+
+.step__description {
+    margin: 0 0 0 24px;
+}
+
+.step__title {
+    color: #243E63;
+    font-size: 20px;
+}
+
+.step__para {
+    color: #718096;
+    font-size: 14px;
+    margin: 12px 0 0;
+    line-height: 2;
+}
+
+.step {
+    display: flex;
+    margin: 32px 0 0;
+}
+
+/* Values */
+
+.values__row {
+    display: flex;
+    padding: 96px 0;
+}
+
+.values__left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 16px 0 0;
+}
+
+.values__heading {
+    font-size: 16px;
+}
+
+.values__heading2 {
+    margin: 16px 0 0;
+}
+
+.values__para {
+    color: #7C8BA1;
+    line-height: 1.625;
+    font-size: 18px;
+    margin: 32px 0 0;
+}
+
+.values {
+    display: flex;
+}
+
+.value {
+    margin: 32px 32px 0 0;
+}
+
+.value__2 {
+    margin: 32px 0 0 0;
+}
+
+.value__headings {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid {
+    border: 0px solid #243E63;
+    font-size: 20px;
+    border-radius: 9999px;
+    padding: 8px;
+}
+
+.fa-dollar-sign {
+    background-color: #9AE6BA;
+}
+
+.fa-user-tie {
+    background-color: #feb2b2;
+}
+
+.value__heading {
+    color: #243E63;
+    font-size: 20px;
+    margin: 0 0 0 12px;
+}
+
+.value__description {
+    color: #718096;
+    line-height: 1.625;
+    margin: 16px 0 0 0;
+}
+
+.values__button {
+    margin: 48px 0 0;
+}
+
+.values__right {
+    width: 50%;
+}
+
+.values__img {
+    width: 100%;
+}
+
+/* Pricing */
