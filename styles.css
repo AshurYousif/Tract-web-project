@@ -19,22 +19,24 @@ a {
     color: #243E63;
     font-weight: bold;
     font-size: 14px;
-    transition: text-decoration 300ms ease;
+    transition: all 300ms ease;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    text-decoration-color: #6415ff;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
 }
 
 button {
     cursor: pointer;
-    transition: opacity 300ms ease;
-    opacity: 1;
+    transition: background-color 300ms ease;
 }
 
-button:hover {
-    opacity: 0.8;
+.purple__button:hover {
+    background-color: #4e11ca;
 }
 
 h1 {
@@ -45,6 +47,10 @@ h1 {
 h2 {
     font-size: 12px;
     color: #A0A3C0;
+}
+
+.no__cursor{
+    cursor: no-drop;
 }
 
 h3 {}
@@ -70,6 +76,11 @@ h3 {}
 .nav__img-logo--wrapper {
     display: flex;
     align-items: center;
+    text-decoration: none;
+}
+
+.nav__img-logo--wrapper:hover {
+    text-decoration: none;
 }
 
 .nav__img-logo {
@@ -101,6 +112,10 @@ h3 {}
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.a__underline:hover {
+    color: #6415ff;
 }
 
 .nav__links__right__two {
@@ -172,6 +187,11 @@ h3 {}
     font-weight: 500;
     padding: 20px 192px 20px 32px;
     z-index: 0;
+    transition: border-color 300ms ease;
+}
+
+.input__field:hover {
+    border-color: rgb(160, 164, 170);
 }
 
 .landing__page__left__para {
@@ -207,12 +227,10 @@ h3 {}
 /* Features */
 
 .container {
-    padding: 80px 0;
+    padding: 96px 0;
 }
 
-.features__row {
-    padding: 32px;
-}
+.features__row {}
 
 .features__top {
     text-align: center;
@@ -247,7 +265,7 @@ h3 {}
 
 .service {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: calc(100%/3);
     padding: 32px 8px;
 }
@@ -277,7 +295,6 @@ h3 {}
 .service__title {
     color: #243E63;
     font-size: 24px;
-    margin: 16px 0 0;
 }
 
 .service__para {
@@ -290,7 +307,6 @@ h3 {}
 
 /* Quality work */
 
-
 .qualitywork__row {
     display: flex;
     justify-content: center;
@@ -300,6 +316,7 @@ h3 {}
 }
 
 .qualitywork__page__left {
+    width: 50%;
     display: flex;
     flex-direction: column;
     padding: 32px 0;
@@ -335,7 +352,9 @@ h3 {}
 }
 
 .qualitywork__page__right {
+    width: 50%;
     display: flex;
+    padding: 0 0 0 16px;
 }
 
 .qualitywork__img--wrapper {
@@ -343,6 +362,8 @@ h3 {}
 }
 
 .quality__work__img {
+    width: 100%;
+    max-width: 640px;
     border: 1px solid rgb(226, 232, 240);
     border-radius: 5px;
     max-width: 640px;
@@ -633,6 +654,7 @@ h3 {}
     padding: 16px 32px;
     border-radius: 9999px;
     border: none;
+    transition: all 300ms ease;
 }
 
 .price__bt1 {
@@ -650,6 +672,18 @@ h3 {}
     color: #F7FAFC;
 }
 
+
+.price__bt2:hover {
+    background-image: rgb(180, 183, 185);
+}
+
+.price__bt1:hover,
+.price__bt2:hover,
+.price__bt3:hover {
+    transform: translate(2px, -2px);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .8);
+}
+
 /* Testimonials */
 
 .testimonials__row {
@@ -665,7 +699,7 @@ h3 {}
 
 .testimonials__img {
     width: 100%;
-    width: 600px;
+    max-width: 600px;
 }
 
 .testimonials__right {
@@ -913,6 +947,10 @@ h3 {}
     border: none;
 }
 
+.get-started__button:hover {
+    background-color: rgb(192, 79, 79);
+}
+
 .contact-us__button {
     max-width: 173.66px;
     background-color: rgb(100, 21, 255);
@@ -963,6 +1001,15 @@ h3 {}
     font-weight: normal;
     font-size: 14px;
     margin: 12px 0 0;
+    transition: all 300ms ease;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
 }
 
 .footer__middle {
@@ -1023,6 +1070,10 @@ h3 {}
     border: none;
     background-color: #f7fafc;
     padding: 8px;
+}
+
+.footer__social:hover {
+    background-color: #c2c6c9;
 }
 
 .button__margin {
