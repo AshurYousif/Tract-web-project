@@ -1225,7 +1225,14 @@ h3 {}
         padding: 0;
     }
 
+    .landing__page__right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
     .landing__page__img {
+        width: 100%;
         max-width: 512px;
         padding: 36px 0 0;
     }
@@ -1353,15 +1360,19 @@ h3 {}
 
     .qualitywork__heading2 {
         text-align: center;
+        width: 100%;
+        max-width: 448px;
     }
 
     .qualitywork__para {
         font-size: 14px;
         text-align: center;
+        max-width: 448px;
     }
 
     .qualitywork__page__left {
         align-items: center;
+        width: 100%;
     }
 
     .steps__row {
@@ -1372,17 +1383,32 @@ h3 {}
     .steps__page__left {
         width: 100%;
         max-width: 448px;
+        padding: 0 0;
+    }
+
+    .steps__heading {
+        margin: 16px 0 0;
     }
 
     .steps__heading2 {
         text-align: center;
     }
 
+    .steps__page__right {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .steps__list {
+        width: 100%;
+    }
+
     .step {
+        width: 100%;
         flex-direction: column;
         align-items: center;
         max-width: 320px;
-        margin: 32px 0 0 0;
+        margin: 32px auto 0 auto;
     }
 
     .step__description {
@@ -1410,15 +1436,20 @@ h3 {}
         align-items: center;
     }
 
+    .values__para {
+        max-width: 448px;
+    }
+
     .values {
         margin: 0px 64px;
     }
 
-    .value, .value__2 {
+    .value,
+    .value__2 {
         text-align: center;
         margin: 40px 0 0;
     }
-    
+
     .values__right {
         padding: 0 0 40px;
     }
@@ -1438,11 +1469,16 @@ h3 {}
         align-items: center;
     }
 
-    .testimonials__left, .testimonials__right {
+    .testimonials__left,
+    .testimonials__right {
         width: 100%;
         max-width: 448px;
         padding: 0 0;
         text-align: center;
+    }
+
+    .testimonials__heading {
+        margin: 16px 0 0;
     }
 
     .faqs__para {
@@ -1452,12 +1488,135 @@ h3 {}
     .question__button {
         font-size: 18px;
     }
+
+    .page-info-break__box--wrapper {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 }
 
 
 /*small phones, large smartphones, something else*/
-@media (max-width: 638px) {}
+@media (max-width: 638px) {
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input__field {
+        max-width: 448px;
+    }
+
+    .input__button {
+        position: relative;
+        width: 100%;
+        max-width: 448px;
+        margin: 16px;
+    }
+
+    .features__heading2 {
+        font-size: 36px;
+    }
+
+    .service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service__description {
+        align-items: center;
+        margin: 16px auto 0 auto;
+    }
+
+    .service__title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .service__para {
+        text-align: center;
+        margin: 4px 0 0;
+    }
+
+    .qualitywork__heading2 {
+        font-size: 30px;
+
+    }
+
+    .steps__heading2 {
+        font-size: 30px;
+    }
+
+    .values__heading2 {
+        font-size: 30px;
+    }
+
+    .pricing__heading2 {
+        font-size: 30px;
+    }
+
+    .pricing__para {
+        max-width: 448px;
+    }
+
+    .testimonials__heading2 {
+        font-size: 30px;
+    }
+
+    .faqs__heading2 {
+        font-size: 30px;
+    }
+
+    .page-info-break__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-started__button {
+        margin: 0 auto;
+    }
+
+    .contact-us__button {
+        margin: 16px 0 0;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__center {
+        margin: 32px 0 0;
+    }
+
+    .footer__right {
+        margin: 32px 0 0;
+    }
+}
 
 
-/* FIGURE OUT SPLITTING POINTS FOR FOOTER */
-@media (max-width: 550px) {}
+/* footer social links split */
+@media (max-width: 640px) {
+    .links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .column {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+/*small phones, large smartphones */
+@media (max-width: 550px) {
+    h1 {
+        text-align: center;
+    }
+
+    .page-info-break__para {
+        font-size: 24px;
+    }
+}
